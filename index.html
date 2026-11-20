@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia de la Computadora</title>
+    <!-- Enlace al CSS externo -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Titulo priipal visible -->
+    <header class="encabezado">
+        <h1>La Historia de la Computadora</h1>
+        <p class="subtitulo">Un recorrido por los inventos que cambiaron el mundo</p>
+    </header>
+
+    <!-- Menu de navegacion con 3 enlaces -->
+    <nav class="menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#historia">Historia</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <!-- Seccion de contenido con imagen y parrafos -->
+    <main>
+        <section id="inicio" class="seccion">
+            <h2>Bienvenido</h2>
+            <img src="images/3107.jpg" alt="Imagen de una computadora antigua" class="imagen">
+        </section>
+
+        <section id="historia" class="seccion">
+            <h2>Un poco de historia</h2>
+            <p>
+                La historia de la computadora comienza mucho antes de la electronica. 
+                En el siglo XIX, Charles Babbage disenio la "Maquina Analitica", considerada 
+                el primer concepto de computadora programable. Mas tarde, Ada Lovelace escribio 
+                el primer algoritmo pensado para ser ejecutado por una maquina, por lo que es 
+                reconocida como la primera programadora de la historia.
+            </p>
+            <p>
+                En 1946 se presento la ENIAC, una de las primeras computadoras electronicas, 
+                que ocupaba una habitacion entera y pesaba mas de 27 toneladas. Con el paso de 
+                las decadas, la invencion del transistor y luego del microchip permitio que las 
+                computadoras se volvieran mas pequenias, rapidas y accesibles para todos. Hoy en 
+                dia llevamos en el bolsillo mas poder de computo que el que se uso para llevar 
+                al hombre a la Luna.
+            </p>
+
+            <!-- Boton o enlace con apariencia de boton -->
+            <a href="https://concepto.de/historia-de-la-computadora"
+               target="_blank" class="boton">Leer mas en...</a>
+        </section>
+
+        <!-- Formulario basico -->
+        <section id="contacto" class="seccion">
+            <h2>Contactanos</h2>
+            <form class="formulario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+
+                <button type="submit" class="boton">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <p>Taller de Desarrollo de Aplicaciones Web  2025</p>
+    </footer>
+
+</body>
+</html>

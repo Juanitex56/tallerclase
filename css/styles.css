@@ -1,0 +1,131 @@
+/* ===== Estilos generales ===== */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ===== Encabezado ===== */
+.encabezado {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.encabezado h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.subtitulo {
+    margin-top: 10px;
+    font-style: italic;
+    color: #bdc3c7;
+}
+
+/* ===== Menú de navegación ===== */
+.menu {
+    background-color: #34495e;
+    text-align: center;
+    padding: 12px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #f1c40f;
+}
+
+/* ===== Secciones de contenido ===== */
+.seccion {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.seccion h2 {
+    color: #2980b9;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 8px;
+}
+
+/* ===== Imagen ===== */
+.imagen {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 3px solid #ecf0f1;
+}
+
+/* ===== Botón (clase reutilizable) ===== */
+.boton {
+    display: inline-block;
+    background-color: #2980b9;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: #1f6391;
+}
+
+/* ===== Formulario ===== */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario label {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.formulario input,
+.formulario textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+    outline: none;
+    border-color: #2980b9;
+    box-shadow: 0 0 5px rgba(41, 128, 185, 0.4);
+}
+
+/* ===== Pie de página ===== */
+.pie {
+    text-align: center;
+    background-color: #2c3e50;
+    color: #bdc3c7;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
